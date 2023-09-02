@@ -22,13 +22,6 @@
     margin: 0 4%;
 }
 
-.contents__container > h1 {
-    padding-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    letter-spacing: 4px;
-}
-
 .contents__container{
     background-color: whitesmoke;
     margin: 0 auto;
@@ -44,8 +37,11 @@
     padding: 4% 0;
     
 }
-.contents__trainingContainer > h1, .contents__membershipContainer > h1 {
+.contents__story > h1, .contents__trainingContainer > h1, .contents__membershipContainer > h1 {
     letter-spacing: 4px;
+    padding-top: 4%;
+    margin-bottom: 1%;
+    text-align: center;
 }
   
 .contents__moreButton {
@@ -74,20 +70,52 @@
     box-shadow: 0 0 10px 4px #444;
 }
 
+.contents__story > h1 {
+    
+}
+.contents__storyIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contents__storyLeftIcon {
+    animation: moveLeft 1.25s infinite;
+}
+@keyframes moveLeft {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+}
+.contents__storyRightIcon {
+    animation: moveRight 1.25s infinite;
+}
+@keyframes moveRight {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+}
+
 .contents__storyContainer {
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;
     width: 95%;
-    margin: 5% auto;scrollbar-width: none; /* Firefox */
+    margin: 2% auto;
+    scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer and Edge */
     border-left: 2px solid #111;
     border-right: 2px solid #111;
 }
-
 .contents__storyContainer::-webkit-scrollbar {
     width: 0;
 }
+ 
 
 
 @media (max-width: 768px) {

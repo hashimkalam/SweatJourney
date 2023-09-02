@@ -55,8 +55,7 @@ function MembershipCard({ color, title, price, description }) {
             </div>
             <p>
               Thrilled to witness your proactive steps towards contributing,
-              <br />
-              {user ? user.displayName : "Spotter"}!
+              {user ? " " + user.displayName : " Spotter"}!
             </p>
 
             <h4>{price}</h4>

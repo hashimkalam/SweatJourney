@@ -62,10 +62,9 @@
 
 .blog__faqs {
     background-color: rgba(30, 144, 255, .3);
-    margin-top: 8%;
     padding-top: 2%;
     width: 96%;
-    margin: 8% auto;
+    margin: 6% auto;
 }
 .blog__faqs > h1 {
     text-align: center;

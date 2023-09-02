@@ -7,7 +7,7 @@
 }
 
 .header__logo {
-  width: 200px;
+  width: 180px;
   object-fit: contain;
   flex: .1;
   animation: openingAnim 1s;
@@ -21,13 +21,13 @@
   justify-content: space-evenly;
   margin: 0;
   padding: 0;
+  margin-right: 50px;
 }
 
 .header ul li { 
   margin-right: 20px;
   animation: openingAnim 2s;
 }
-
 
 .header ul li:last-child {
   margin-right: 0;
@@ -40,7 +40,6 @@
   position: relative;
   text-transform: uppercase;
   transition: color 0.3s ease;
-  
 }
 
 .header ul li a:hover {
@@ -121,6 +120,7 @@ nav .header__icon{
     display: block !important;
     color: #f39c12 !important;
     margin-right: 20px;
+    animation: openingAnim 2s;
   }
 
   .sideMenu {

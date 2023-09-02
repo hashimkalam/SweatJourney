@@ -39,15 +39,18 @@
     border: none;
     height: 2px;
     background-color: lightgray;
-    width: 97%;
+    width: 96.5%;
     margin: 0 auto;
     margin-top: 15px;
 }
 
 @media (max-width: 768px) {
+    .checkout__headerItems {
+        margin: 0 auto;
+        margin-bottom: 8%;
+    }
  
     .checkout__contents {
-
       max-height: none;
       border: none;
       margin: 20px;
@@ -60,6 +63,7 @@
   
     .checkout__hr {
       margin-top: 10px;
+      width: 89.5%;
     }
 }
   

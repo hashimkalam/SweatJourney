@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Transformation.css";
 import { db, storage } from "../firebase";
-
 import { Button, LinearProgress, TextField } from "@mui/material";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import firebase from "firebase";
@@ -52,7 +51,7 @@ function Transformation() {
               image: url,
             });
 
-            setImageUrl(url); // Set the image URL
+            setImageUrl(url);
             setProgress(0);
             setName("");
             setCaption("");
@@ -120,7 +119,12 @@ function Transformation() {
           </div>
         </>
       ) : (
-        <h2 className="transformation__errorMsg"> Error: Register First!!</h2>
+        <div className="transformation__error">
+          <h2 className="transformation__errorMsg"> Error: Register First!!</h2>
+          <Link to="/login">
+            <Button className="transformation__register"> Register </Button>
+          </Link>
+        </div>
       )}
     </div>
   );

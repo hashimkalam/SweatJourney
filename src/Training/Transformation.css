@@ -63,6 +63,31 @@
     margin: 1% auto;
 }
 
+.transformation__register {
+    height: 55px !important;
+    width: 120px !important;
+    margin: 0 6px !important;
+    font-weight: 600 !important;
+    font-size: large !important;
+    text-transform: inherit !important;
+    color: #101820 !important;
+    background-color: rgba(128, 128, 128, 0.4) !important;
+    border-top: 2px solid rgba(128, 128, 128, 0.6) !important;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.6) !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    margin: 15px auto !important;
+    color: #222 !important;
+    letter-spacing: 2px !important;
+}
+.transformation__register:hover {
+    background-color: rgba(128, 128, 128, 0.6) !important;
+}
+
+.transformation__error > a {
+    text-decoration: none;
+}
+
 @keyframes errorGlow {
     0%, 100% {
         transform: scale(1.05);

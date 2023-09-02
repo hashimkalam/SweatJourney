@@ -30,7 +30,7 @@
     box-shadow: 0 0 5px 2px #444;
     position: absolute  !important;
     width: 100%;
-    bottom: -10%;
+    bottom: -6%;
     right: 0;
     transition: transform 0.3s ease-out !important;
 }
@@ -52,8 +52,12 @@
 
 .membershipCard__BoxTop {
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin-right: 20px;
 }  
+.membershipCard__BoxTop > h2 {
+    margin: 10px auto;
+}
 
 .membershipCard__membershipBox > h2 {
     text-align: center;
@@ -76,11 +80,7 @@
       min-width: auto;
       margin: 40px 20px;
       padding: 15px;
-    }
-  
-    .membershipCard__contentsButton {
-        bottom: -4%;
-        right: 0;
+      
     }
   
     .membershipCard__membershipBox {
@@ -89,10 +89,7 @@
         top: 40%;
     }
   
-    .membershipCard__BoxTop {
-        flex-direction: column;
-        text-align: center;
-    }
+   
   
     .membershipCard__membershipBox > h2 {
         font-size: 24px;

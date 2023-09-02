@@ -2,6 +2,8 @@
     margin-top: 50px;
     padding: 50px;
     background-color: #222;
+    border-top: 4px solid #111;
+    border-bottom: 4px solid #111;
     width: 90%;
     margin: 20px auto;
 }

@@ -31,7 +31,7 @@
 }
 
 .training__uploadButton {
-    margin: 10px;
+    margin-top: 10px !important;
     color: #111 !important;
     background-color: rgba(255, 215, 0, 1) !important;
 }

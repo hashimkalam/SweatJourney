@@ -24,9 +24,9 @@ function Post({ id, image, name, timestamp, caption, imageUrl }) {
           <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
           <div className="post__topInfoHead">
             <h3>{name}</h3>
-            {/*  <Button className="post__topInfoDelete" onClick={removeFromBasket}>
+            <Button className="post__topInfoDelete" onClick={removeFromBasket}>
               Delete
-            </Button> */}
+            </Button>
           </div>
         </div>
 

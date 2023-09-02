@@ -92,7 +92,7 @@ function Shop() {
           />
           <ShopCard
             id="5062398147"
-            title="VAISHNAVI FITNESS Gym Bench Home gym Heavy Duty 8 in 1 Gym Bench"
+            title="VAISHNAVI FITNESS Gym Bench Home gym 8 in 1 Gym Bench"
             price={699.99}
             rating={4}
             noOfReviews={201}
@@ -108,6 +108,14 @@ function Shop() {
           />
         </div>
         <div className="shop__row">
+          <ShopCard
+            id="6715398204"
+            title="TOPOKO Pull Up Bar for Doorway, No Screws Portable Chin Up Bar Doorway, Strength Training Door Frame"
+            price={24.99}
+            rating={3}
+            noOfReviews={129}
+            image="https://m.media-amazon.com/images/I/61gRqLFMiLL._AC_UF1000,1000_QL80_.jpg"
+          />
           <ShopCard
             id="6715398204"
             title="TOPOKO Pull Up Bar for Doorway, No Screws Portable Chin Up Bar Doorway, Strength Training Door Frame"

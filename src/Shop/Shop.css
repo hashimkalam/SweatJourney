@@ -35,7 +35,6 @@
 
 @media (max-width: 768px) {
     .shop__header {
-      margin: 0;
       width: fit-content;
       padding: 0 10px;
       margin-bottom: 5px;
