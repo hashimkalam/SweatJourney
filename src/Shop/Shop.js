@@ -31,7 +31,7 @@ function Shop() {
         </Link>
         <div className="shop__row">
           <ShopCard
-            id=""
+            id="2541575648"
             title="Faster Rubber Hex Dumbbell Sets"
             price={14.99}
             rating={4}

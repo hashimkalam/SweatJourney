@@ -3,18 +3,14 @@ import "./FitnessChallenge.css";
 import { Button } from "@mui/material";
 
 function FitnessChallenge({ title, description, video }) {
-  const [isAccepted, setIsAccepted] = useState(false);
-  const [isRemoved, setIsRemoved] = useState(false);
+  const [accepted, setAccepted] = useState(false);
 
   const accept = () => {
-    setIsAccepted(true);
-  };
-  const remove = () => {
-    setIsRemoved(true);
+    setAccepted(!accepted);
   };
 
   return (
-    <div className={`fitnessChallenge ${isRemoved ? "removed" : ""}`}>
+    <div className="fitnessChallenge">
       <div className="fitnessChallenge__Video">
         <iframe
           src={video}
@@ -29,16 +25,25 @@ function FitnessChallenge({ title, description, video }) {
         <p>{description}</p>
 
         <div className="fitnessChallenge__Button">
-          {isAccepted ? (
+          {accepted ? (
             <p className="challengeStatus">Challenge Accepted 💪</p>
           ) : (
             <Button onClick={accept} className="fitnessChallenge__ButtonAccept">
-              Accept
+              {!accepted && "Accept"}
             </Button>
           )}
-          <Button onClick={remove} className="fitnessChallenge__ButtonDecline">
-            Back Out
-          </Button>
+          {accepted ? (
+            <Button
+              onClick={accept}
+              className="fitnessChallenge__ButtonDecline"
+            >
+              Back Out
+            </Button>
+          ) : (
+            <Button className="fitnessChallenge__ButtonDecline">
+              Back Out
+            </Button>
+          )}
         </div>
       </div>
     </div>

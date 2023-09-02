@@ -15,7 +15,7 @@ function Transformation() {
   const [progress, setProgress] = useState(0);
   const [name, setName] = useState("");
   const [caption, setCaption] = useState("");
-  const [imageUrl, setImageUrl] = useState(""); // New state for the image URL
+  const [imageUrl, setImageUrl] = useState("");
 
   const handleChange = (e) => {
     if (e.target.files[0]) {

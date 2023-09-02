@@ -10,6 +10,10 @@
     letter-spacing: 2px;
     background-color: whitesmoke;
 }
+.blog__faqs > h1, .blog__advices > h1 {
+    padding: 20px 0;
+    letter-spacing: 2px;
+}
 
 .blog__challengesIcon {
     margin: 0 auto !important;
@@ -34,7 +38,7 @@
     margin: 0 auto;
     border-left: 4px solid #222;
     border-right: 4px solid #222;
-    padding: 25px;
+    padding: 25px 25px 10px 25px;
     overflow: auto;
     max-height: 400px; 
     scrollbar-width: none; /* Firefox */
@@ -84,7 +88,7 @@
   
     .blog__challenge {
         width: 93%;
-        padding: 15px;
+        padding: 15px 15px 5px 15px;
         max-height: none;
         border: none;
     }

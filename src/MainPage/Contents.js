@@ -28,7 +28,7 @@ function Contents() {
           <div className="contents__storyContainer">
             <SuccessStory
               image="https://www.nerdfitness.com/wp-content/uploads/2012/09/Ryan-Before-After-1.jpg"
-              topic="Lost and Found: Ryan’s Incredible 115 Pound Weight Loss Journey"
+              topic="Ryan's Remarkable 115lb Weight Loss Journey"
               description="SweatJourney welcomes everyone, irrespective of size or background—yoga lovers, fitness enthusiasts, athletes, and those looking to lead a healthier life. Meet Ryan, who began his journey towards a healthier lifestyle with SweatJourney. After two years of searching, he discovered this supportive community, resulting in a remarkable weight loss of 115 pounds and counting. Here's his story."
             />
             <SuccessStory
