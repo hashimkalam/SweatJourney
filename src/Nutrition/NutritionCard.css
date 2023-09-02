@@ -1,0 +1,88 @@
+.nutritionCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nutritionCard__container {
+    display: flex;
+    padding: 20px;
+    width: 85%;
+    margin: 2rem auto 1rem;
+    background-color: rgba(139, 0, 139, 0.5);
+    background: linear-gradient(to right, rgba(30, 144, 255, 0.85), whitesmoke);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px gray;
+}
+  
+.nutritionCard__containerDescription {
+    flex: .6;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.nutritionCard__containerDescription > h3, h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: left;
+}
+.nutritionCard__containerDescription > p {
+    line-height: 2;
+    margin-bottom: 10px;
+}
+li {
+    margin-bottom: 10px;
+}
+  
+
+
+.nutritionCard__containerImage {
+    flex: .4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+  
+.nutritionCard__containerImage img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: transform 0.5s, border-radius 1s;
+    animation: imagesAnimation 1s linear infinite alternate;
+}
+
+@keyframes imagesAnimation {
+    0% {
+        border-radius: 10px;
+        box-shadow: 0 2px 12px 2px #111;
+    }
+    100% {
+        border-radius: 50px;
+        box-shadow: 0 2px 10px 2px #111;
+    }
+}
+
+
+
+
+/* Add styles for reversed layout */
+.nutritionCard__container--reverse {
+    flex-direction: row-reverse;
+    background: linear-gradient(to left, rgba(30, 144, 255, 0.85), whitesmoke);
+}
+  
+.nutritionCard__containerDescription--reverse {
+    border-radius: 0 10px 10px 0;
+}
+ 
+  
+.nutritionCard__containerImage--reverse {
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+
+

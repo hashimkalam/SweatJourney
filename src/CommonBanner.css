@@ -1,0 +1,50 @@
+.commonBanner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+.commonBanner__contents {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.commonBanner__contents > h2 {
+    color: #ffd700;
+    opacity: .8;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+
+
+.commonBanner__contents {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.commonBanner__contents > h2 {
+    color: #ffd700;
+    opacity: .8;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 4rem;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 768px) {
+    .commonBanner {
+        height: 85vh;
+    }
+    .commonBanner__contents > h2 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+}

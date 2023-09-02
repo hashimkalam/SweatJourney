@@ -1,0 +1,108 @@
+.blog__contents {
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.blog__challenges > h1 {
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    background-color: whitesmoke;
+}
+
+.blog__challengesIcon {
+    margin: 0 auto !important;
+    display: flex !important;
+    opacity: .8;
+    animation: IconGlow 1s infinite;
+}
+@keyframes IconGlow {
+    0%, 100% {
+        transform: scale(1);
+    } 
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+.blog__challenge {
+    display: flex;
+    justify-content: left;
+    background-color: rgba(30, 144, 255, .3);
+    width: 90%;
+    margin: 0 auto;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    padding: 25px;
+    overflow: auto;
+    max-height: 400px; 
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    margin-bottom: 5%;
+}
+.blog__challenge::-webkit-scrollbar {
+    width: 0;
+}
+
+.one {
+    background-color: red;
+    padding: 50px;
+}
+
+.blog__advices {
+    background-color: rgba(34, 34, 34, .1);
+    margin-top: 8%;
+    padding-top: 2%;
+    margin: 0 auto;
+}
+.blog__advices > h1 {
+    text-align: center;
+}
+
+.blog__faqs {
+    background-color: rgba(30, 144, 255, .3);
+    margin-top: 8%;
+    padding-top: 2%;
+    width: 96%;
+    margin: 8% auto;
+}
+.blog__faqs > h1 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .blog__contents {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+  
+    .blog__challenges > h1, .blog__advices > h1, .blog__faqs > h1  {
+        font-size: 20px;
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+  
+    .blog__challenge {
+        width: 93%;
+        padding: 15px;
+        max-height: none;
+        border: none;
+    }
+  
+    .one {
+        padding: 20px;
+    }
+  
+    .blog__advices,
+    .blog__faqs {
+        margin-top: 5%;
+        padding-top: 1%;
+    }
+  
+    .blog__faqs {
+        width: 95%;
+        margin: 5% auto;
+    }
+}
+  

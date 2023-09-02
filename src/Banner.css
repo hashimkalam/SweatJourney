@@ -1,0 +1,96 @@
+.banner {
+    background: url('https://hips.hearstapps.com/hmg-prod/images/martial-arts-royalty-free-image-655728698-1552494900.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+
+.banner__contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.banner__contents > h1 {
+    font-size: 50px;
+    margin-bottom: 30px; 
+    color: rgba(255, 255, 255, .9);
+    animation: openingAnim 4s;
+}
+
+.banner__contents > h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, .8);
+    animation: openingAnim 5s;
+}
+
+.banner__button {
+    color: whitesmoke !important;
+    font-weight: 900 !important;
+    font-size: large !important;
+    text-transform: inherit !important;
+    border: 1px solid lightgray !important;
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    border: 1px solid whitesmoke !important;
+    animation: openingAnim 6s;
+}
+.banner__button:hover {
+    background-color:  rgba(30, 144, 255, 0.5) !important;
+    border: 1px solid rgba(30, 144, 255, 0.85) !important;
+}
+
+.banner__iframe {
+    width: 560px;
+    height: 315px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+ 
+@media (max-width: 768px) {
+    .banner {
+        height: 86vh;
+    }
+ 
+    .banner__contents {
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .banner__contents > h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+  
+    .banner__contents > h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+  
+    .banner__button {
+        padding: 8px 15px !important;
+        font-size: medium !important;
+        background-color:  rgba(30, 144, 255, 0.5) !important;
+        border: 1px solid rgba(30, 144, 255, 0.85) !important;
+    }
+ 
+}
+  

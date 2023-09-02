@@ -1,0 +1,129 @@
+.trainingCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+  
+.trainingCard__container {
+    display: flex;
+    width: 70%;
+    margin: 2rem auto 1rem;
+    background-color: rgba(139, 0, 139, 0.5);
+    background: linear-gradient(to right, rgba(30, 144, 255, 0.85), whitesmoke);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px gray;
+}
+  
+.trainingCard__containerDescription {
+    flex: .6;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: justify;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+.trainingCard__containerDescription > h3 {
+    margin-bottom: 20px;
+    align-items: left;
+}
+.trainingCard__containerDescription > p {
+    line-height: 2;
+}
+  
+.trainingCard__containerImage {
+    flex: .4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+  
+.trainingCard__containerImage img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+.trainingCard__containerImage img:hover {
+    transform: scale(1.05);
+    border-radius: 15px;
+}
+  
+.trainingCard__container--reverse {
+    flex-direction: row-reverse;
+    background: linear-gradient(to left, rgba(30, 144, 255, 0.85), whitesmoke);
+}
+  
+.trainingCard__containerDescription--reverse {
+    border-radius: 0 10px 10px 0;
+}
+.trainingCard__containerDescription--reverse > h3 {
+    text-align: right;
+}
+
+.trainingCard__containerImage--reverse {
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+  
+
+@media (max-width: 768px) {
+    .trainingCard__container {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .trainingCard__containerDescription {
+      flex: 1;
+      border-radius: 10px;
+      margin: 20px 0 0;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .trainingCard__containerDescription > h3 {
+      text-align: center;
+      margin: 0 0 10px;
+    }
+  
+    .trainingCard__containerDescription > p {
+      line-height: 1.5;
+    }
+  
+    .trainingCard__containerImage {
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .trainingCard__containerImage img {
+      max-width: 100%;
+      object-fit: contain;
+      border-radius: 0 0 10px 10px;
+    }
+  
+    .trainingCard__container--reverse {
+      flex-direction: column-reverse;
+    }
+  
+    .trainingCard__containerDescription--reverse {
+      border-radius: 10px;
+    }
+  
+    .trainingCard__containerDescription--reverse > h3 {
+      text-align: center;
+    }
+  
+    .trainingCard__containerImage--reverse {
+      justify-content: center;
+      padding-right: 0;
+    }
+    .trainingCard__containerImage--reverse > img {
+      border-radius: 10px 10px 0 0;
+  }
+}
+  

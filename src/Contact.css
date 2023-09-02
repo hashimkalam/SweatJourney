@@ -1,0 +1,221 @@
+.contact__container {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.contact__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 52px 0;
+}
+  
+.contact__infoLeft {
+    background-color: rgba(211, 211, 211, .5);
+    width: fit-content;
+    padding: 25px;
+    flex: .4;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+}
+
+.contact__infoLeft > h2 {
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact__infoLeft > form {
+    background-color: rgba(211, 211, 211, .5);
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(211, 211, 211, 1);
+}
+.contact__infoLeft > form > input {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    outline-width: 0;
+    text-align: center;
+    font-family:   monospace;
+}
+.contact__infoLeft > form > textarea {
+    text-align: center;
+    height: 100px;
+    outline-width: 0;
+    border: none;
+    padding: 10px;
+    font-family:   monospace;
+}
+
+.contact__infoButton {
+    background-color: rgba(30, 144, 255, 0.8) !important;
+    margin-top: 20px !important;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contact__infoButton:hover {
+    background-color: rgba(30, 144, 255, 1) !important;
+}
+
+
+.contact__infoRight {
+    background-color: #f5f5f5;
+    flex: 0.4;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact__infoRight > h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact__infoRight > h4 { 
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact__infoRightContents {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__infoDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    transition: transform .3s ease-out;
+}
+.contact__infoDetails:hover {
+    transform: scale(1.05);
+}
+
+.contact__infoDetails h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.contact__infoDetails p {
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+}
+
+.contact__infoDetails > h5 > .MuiSvgIcon-root {
+    cursor: pointer;
+    margin: 0 5px;
+    color: #333;
+    transition: transform .3s ease-out;
+}
+.contact__infoDetails > h5 > .MuiSvgIcon-root:hover {
+    transform: translateY(-5px);
+    color: #000;
+}
+
+.contact__map {
+    height: 40vh;
+    width: 100%;
+}
+@media ( max-width: 768px) {
+    .contact__info {
+        display: block;
+    }
+
+    .contact__infoLeft {
+        margin: 20px auto;
+    }
+    
+    .contact__infoRight {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .contact__infoRight > h2 {
+        font-size: 20px;
+    }
+
+    .contact__infoRight > h4 { 
+        font-size: 16px;
+    }
+
+    .contact__infoDetails {
+        margin: 12px 0;
+        padding: 10px;
+        width: 40%;
+    }
+    
+    .contact__infoDetails h4 {
+        font-size: 1rem;
+    }
+    
+    .contact__infoDetails p {
+        font-size: .7rem;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) { 
+    .contact__info {
+        display: block;
+    }
+
+    .contact__infoLeft {
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .contact__infoRight {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .contact__infoRight > h2 {
+        font-size: 20px;
+    }
+
+    .contact__infoRight > h4 { 
+        font-size: 16px;
+    }
+
+    .contact__infoDetails {
+        margin: 12px 0;
+        padding: 10px;
+        width: 40%;
+    }
+    
+    .contact__infoDetails h4 {
+        font-size: 1rem;
+    }
+    
+    .contact__infoDetails p {
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,109 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #36454F, 85%, #507592);
+    background: linear-gradient(to bottom, #000,60%, #111);
+}
+
+.login__logo {
+    width: 20rem;
+    object-fit: contain;
+    margin: 10px auto;
+}
+
+.login__container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 0 20px 5px #333;
+}
+
+.login__containerHeading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    color: rgba(255, 255, 255, .8);
+    letter-spacing: 3px;
+}
+
+.login__backLink {
+    display: flex;
+    align-items: center;
+}
+
+.login__backIcon {
+    margin-left: auto;
+    color: rgba(30, 144, 255, 1);
+}
+
+.login__containerHeading > h1 {
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, .8);
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    width: 98%;
+    font-weight: 600;
+    outline-width: 0;
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+
+.login__containerButton {
+    color: whitesmoke !important;
+    font-weight: 900 !important;
+    font-size: large !important;
+    text-transform: inherit !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    border: 1px solid whitesmoke !important;
+    width: 98%;
+    margin-top: 5px !important;
+}
+.login__containerButton:hover {
+    color: whitesmoke !important;
+    background-color: #101820 !important;
+    border: 1px solid #101820 !important;
+}
+
+.login__registerButton {
+    color: whitesmoke !important;
+    font-weight: 900 !important;
+    font-size: large !important;
+    text-transform: inherit !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    border: 1px solid whitesmoke !important;
+    width: 100%;
+    margin-top: 25px !important;
+    background-color: rgba(211, 211, 211, .2) !important;
+    box-shadow: 0 0 5px 2px #222;
+}
+.login__registerButton:hover {
+    color: #fff !important;
+    background-color: rgba(211, 211, 211, .1) !important;
+}

@@ -1,0 +1,7 @@
+.payments {
+    margin: 25px;
+}
+
+.payments > form {
+    background-attachment: #fff;
+}

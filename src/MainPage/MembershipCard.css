@@ -1,0 +1,125 @@
+.membershipCard__contentsCard {
+    min-width: 340px;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: -4px 4px 10px 1px #555;
+    margin: 0 25px;
+    position: relative;
+    transition: transform .3s ease-out;
+    background-clip: padding-box;
+}
+.membershipCard__contentsCard:hover {
+    transform: scale(1.025);
+}
+
+.membershipCard__contentsCard > h4 {
+    margin: 10px 0;
+    text-align: justify;
+    line-height: 2;
+}
+
+.membershipCard__contentsButton {
+    color: #8B008B !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    padding: 5px !important;
+    border: 1px solid whitesmoke !important;
+    color: #fff !important;
+    background-color: rgba(1, 1, 1, 0.75) !important;
+    margin-top: 25px !important;
+    box-shadow: 0 0 5px 2px #444;
+    position: absolute  !important;
+    width: 100%;
+    bottom: -10%;
+    right: 0;
+    transition: transform 0.3s ease-out !important;
+}
+.membershipCard__contentsButton:hover {
+    background-color: rgba(1, 1, 1, 0.9) !important;    
+}
+
+.membershipCard__membershipBox {
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 2px #222;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.membershipCard__BoxTop {
+    display: flex;
+    align-items: center; 
+}  
+
+.membershipCard__membershipBox > h2 {
+    text-align: center;
+    color: #222;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.membershipCard__membershipBox > p {
+    letter-spacing: 1.2;
+    font-weight: 500;
+    color: #444;
+}
+.membershipCard__membershipBox > h4 {
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .membershipCard__contentsCard {
+      min-width: auto;
+      margin: 40px 20px;
+      padding: 15px;
+    }
+  
+    .membershipCard__contentsButton {
+        bottom: -4%;
+        right: 0;
+    }
+  
+    .membershipCard__membershipBox {
+        padding: 20px;
+        width: 75%;
+        top: 40%;
+    }
+  
+    .membershipCard__BoxTop {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .membershipCard__membershipBox > h2 {
+        font-size: 24px;
+    }
+  
+    .membershipCard__membershipBox > p {
+        font-size: 14px;
+    }
+  
+    .membershipCard__membershipBox > h4 {
+        font-size: 16px;
+        margin: 15px 0 5px;
+    }
+}
+
+ 
+@media (min-width: 768px) and (max-width: 1200px) {
+    .membershipCard__contentsCard {
+        display: block;
+        max-width: 550px;
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+    
+    .membershipCard__contentsCard > h4 {
+        font-size: 14px;
+    }
+
+}
+  

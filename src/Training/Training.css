@@ -1,0 +1,37 @@
+.training > h1 {
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.training__container {
+    margin: 0 auto;
+    max-width: 1800px;
+    background-color: whitesmoke;
+}
+
+.training__upload {
+    margin-top: 25px;
+    background-color: rgba(255, 215, 0, .7);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.training__upload > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.training__upload > a {
+    color: #111 !important;
+    width: fit-content;
+    margin: 0 auto !important;
+}
+
+.training__uploadButton {
+    margin: 10px;
+    color: #111 !important;
+    background-color: rgba(255, 215, 0, 1) !important;
+}
