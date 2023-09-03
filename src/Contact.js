@@ -21,12 +21,18 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [messageSent, setMessageSent] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Name:", name);
-    console.log("Email:", email);
-    console.log("Message:", message);
+    setName("");
+    setEmail("");
+    setMessage("");
+    setMessageSent(true);
+
+    setTimeout(() => {
+      setMessageSent(false);
+    }, 3000);
   };
 
   return (
@@ -65,9 +71,26 @@ function Contact() {
                 required
               />
 
-              <Button fullWidth className="contact__infoButton" type="submit">
+              <Button
+                fullWidth
+                className="contact__infoButton"
+                type="submit"
+                onChange={handleSubmit}
+              >
                 Submit
               </Button>
+              {messageSent && (
+                <p
+                  style={{
+                    textAlign: "center",
+                    marginTop: "10px",
+                    color: "green",
+                    fontWeight: "600",
+                  }}
+                >
+                  Message Sent
+                </p>
+              )}
             </form>
           </div>
           <div className="contact__infoRight">

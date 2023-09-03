@@ -66,15 +66,23 @@ function BMI() {
         <form>
           <input
             value={weight}
-            onChange={(e) => setWeight(e.target.value)}
+            onChange={(e) => {
+              if (/^[0-9]*$/.test(e.target.value)) {
+                setWeight(e.target.value);
+              }
+            }}
             placeholder="Weight in kg"
-            type="number"
+            type="text"
           />
           <input
             value={height}
-            onChange={(e) => setHeight(e.target.value)}
+            onChange={(e) => {
+              if (/^[0-9]*$/.test(e.target.value)) {
+                setHeight(e.target.value);
+              }
+            }}
             placeholder="Height in m"
-            type="number"
+            type="text"
           />
           <Button
             className="bmi__containerButton"

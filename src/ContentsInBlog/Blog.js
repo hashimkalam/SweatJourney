@@ -24,24 +24,24 @@ function Blog() {
           <MultipleStopIcon fontSize="large" className="blog__challengesIcon" />
           <div className="blog__challenge">
             <FitnessChallenge
-              className="one"
-              title="30-Day Plank Challenge"
-              description="Challenge yourself with the 30-Day Plank Challenge! Begin with a short plank hold and 
-              progressively increase the duration each day. Strengthen your core muscles and build endurance while 
-              improving your posture and balance."
-              video="https://www.youtube.com/embed/WWj_ZZ_PSAE"
-            />
-            <FitnessChallenge
               title="Push-Up Challenge"
               description="Embark on a Push-Up Challenge to enhance your upper body strength. Start with a modest number 
               of push-ups daily, gradually increasing the reps as you build muscle and improve your overall upper body fitness."
               video="https://www.youtube.com/embed/fqGd8jUdr2I"
             />
             <FitnessChallenge
-              title="Squat Challenge"
-              description="Join the Squat Challenge to sculpt your lower body and boost leg strength. Begin with a 
-              comfortable squat count and steadily raise the bar over the challenge period. Watch your legs become stronger and more toned."
-              video="https://www.youtube.com/embed/mGvzVjuY8SY"
+              title="Weekly Step Challenge"
+              description="Encourage users to track their daily steps using a fitness tracker or smartphone app. Set a weekly step goal and 
+              offer rewards for meeting or exceeding it."
+              video="https://www.youtube.com/embed/0URr_XkgAIE"
+            />
+            <FitnessChallenge
+              className="one"
+              title="30-Day Plank Challenge"
+              description="Challenge yourself with the 30-Day Plank Challenge! Begin with a short plank hold and 
+              progressively increase the duration each day. Strengthen your core muscles and build endurance while 
+              improving your posture and balance."
+              video="https://www.youtube.com/embed/WWj_ZZ_PSAE"
             />
 
             <FitnessChallenge
@@ -51,16 +51,16 @@ function Blog() {
               video="https://www.youtube.com/embed/mGvzVjuY8SY"
             />
             <FitnessChallenge
-              title="Squat Challenge"
-              description="Join the Squat Challenge to sculpt your lower body and boost leg strength. Begin with a 
-              comfortable squat count and steadily raise the bar over the challenge period. Watch your legs become stronger and more toned."
-              video="https://www.youtube.com/embed/mGvzVjuY8SY"
+              title="30-day Pull-Up Challenge"
+              description="Take on our 30-Day Pull-Up Challenge! Elevate upper body strength with daily workouts, perfect your form, and 
+              reach your pull-up goals in a month."
+              video="https://www.youtube.com/embed/KVwu3H5ESVk"
             />
             <FitnessChallenge
-              title="Squat Challenge"
-              description="Join the Squat Challenge to sculpt your lower body and boost leg strength. Begin with a 
-              comfortable squat count and steadily raise the bar over the challenge period. Watch your legs become stronger and more toned."
-              video="https://www.youtube.com/embed/mGvzVjuY8SY"
+              title="Nutrition Makeover Challenge"
+              description="Challenge users to revamp their nutrition habits over a set period. Provide meal plans, healthy 
+              recipes, and educational content about nutrition."
+              video="https://www.youtube.com/embed/u4WLDR3qILo"
             />
           </div>
         </div>

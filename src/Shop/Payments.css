@@ -1,39 +1,45 @@
 .payments {
-    border-top: 2px solid lightgray;
+  border-top: 3px solid lightgray;
+  margin: 0 20px 15px;
+  padding-bottom: 25px;
 }
 
 .payments > h2 {
-    margin: 25px 40px;
+  margin: 25px 40px;
 }
 
 .payments__input {
-    width: 30%;
-    padding: 20px;
-    padding-bottom: 15px;
-    margin-left: 40px;
-    background-color: whitesmoke;
+  width: 30%;
+  padding: 20px;
+  padding-bottom: 15px;
+  margin-left: 40px;
+  background-color: whitesmoke;
 }
 
 .payments__button {
-    background-color: rgba(173, 255, 47, .5) !important;
-    margin: 10px 0 !important;
-    color: rgba(1, 1, 1, .7) !important;
+  background-color: rgba(173, 255, 47, .5) !important;
+  margin: 10px 0 !important;
+  color: rgba(1, 1, 1, .5) !important;
+}
+.payments__button:hover{
+  background-color: rgba(173, 255, 47, .8) !important;
+  color: rgba(1, 1, 1, .8) !important;
 }
 
 @media (max-width: 768px) {
-    .payments > h2 {
-      margin: 15px;
-      font-size: 24px;
-    }
+  .payments > h2 {
+    margin: 15px;
+    font-size: 24px;
+  }
   
-    .payments__input {
-      width: 80%;
-      padding: 15px;
-      margin-left: 15px;
-    }
+  .payments__input {
+    width: 80%;
+    padding: 15px;
+    margin-left: 15px;
+  }
   
-    .payments__button {
-      margin: 10px 0;
-    }
+  .payments__button {
+    margin: 10px 0;
+  }
 }
   
