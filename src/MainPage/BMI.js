@@ -67,22 +67,18 @@ function BMI() {
           <input
             value={weight}
             onChange={(e) => {
-              if (/^[0-9]*$/.test(e.target.value)) {
-                setWeight(e.target.value);
-              }
+              setWeight(e.target.value);
             }}
             placeholder="Weight in kg"
-            type="text"
+            type="number"
           />
           <input
             value={height}
             onChange={(e) => {
-              if (/^[0-9]*$/.test(e.target.value)) {
-                setHeight(e.target.value);
-              }
+              setHeight(e.target.value);
             }}
             placeholder="Height in m"
-            type="text"
+            type="number"
           />
           <Button
             className="bmi__containerButton"

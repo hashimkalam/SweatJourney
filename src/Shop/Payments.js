@@ -32,7 +32,11 @@ function Payments() {
       <form className="payments__input" onSubmit={handleSubmit}>
         <CardElement onChange={handleChange} />
 
-        <Button className="payments__button" disabled={error || disabled}>
+        <Button
+          onClick={handleSubmit}
+          className="payments__button"
+          disabled={error || disabled}
+        >
           Buy Now
         </Button>
 

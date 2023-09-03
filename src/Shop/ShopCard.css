@@ -28,6 +28,7 @@
 
 .shopCard > img{
     max-height: 200px;
+    width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
     border-radius: 10px;
@@ -117,4 +118,36 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 }
-  
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .shopCard {
+        max-height: none;
+        width: 75%;
+        margin: 4% auto;
+        box-shadow: 0 0 8px 2px #555;
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .shopCard__rating > p, .shopCard__price, .shopCard__title {
+     font-size: 14px;
+    }
+
+    .shopCard__info {
+        height: auto;
+    }
+
+    .shopCard__button {
+        margin-top: 15px !important;
+        padding: 8px 12px !important;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .shopCard__button:hover {
+        background-color: #ffb700 !important;
+        border-radius: 5px;
+        font-weight: 600;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+}
