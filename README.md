@@ -32,5 +32,9 @@ For the map I set up at the Contact Page.
 
 For the payment format I added in the Checkout and membership Section.
 
+## Start-Up
 
 Use `npm start` to run the application.
+
+
+All rights reserved revert to Hashim Kalam.
