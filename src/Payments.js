@@ -1,29 +1,23 @@
 import React, { useEffect, useState } from "react";
 import "./Payments.css";
 import { useStateValue } from "./StateProvider";
-import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
+import { CardElement } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { Button } from "@mui/material";
 
 function Payments() {
-  const [{ basket, user }, dispatch] = useStateValue();
-
-  const stripe = useStripe();
-  const elements = useElements();
+  const [{ user }] = useStateValue();
 
   const [succeeded, setSucceeded] = useState(false);
   const [processing, setProcessing] = useState("");
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
-  const [clientSecret, setClientSecret] = useState(true);
 
   useEffect(() => {});
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setProcessing(true);
-
-    // const payload = await stripe
   };
 
   const handleChange = (e) => {

@@ -35,7 +35,7 @@ function Shop() {
             title="Faster Rubber Hex Dumbbell Sets"
             price={14.99}
             rating={4}
-            noOfReviews={522}
+            noOfReviews={855}
             image="https://www.againfaster.com/cdn/shop/products/Dumbbells5.jpg?v=1656453932"
           />
           <ShopCard
@@ -43,7 +43,7 @@ function Shop() {
             title="METIS Rubber Barbell Weights [10kg-30kg]"
             price={19.99}
             rating={5}
-            noOfReviews={522}
+            noOfReviews={612}
             image="https://nwscdn.com/media/catalog/product/2/5/25kg_1_5.jpg"
           />
           <ShopCard
@@ -51,7 +51,7 @@ function Shop() {
             title="Bowflex Treadmill 22 - Black | NFM"
             price={249.99}
             rating={4}
-            noOfReviews={522}
+            noOfReviews={145}
             image="https://www.nfm.com/dw/image/v2/BDFM_PRD/on/demandware.static/-/Sites-nfm-master-catalog/default/dwe86709ce/images/058/20/58201443-3.jpg?sw=1000&sh=1000&sm=fit"
           />
         </div>
@@ -61,7 +61,7 @@ function Shop() {
             title="50 lb Kettlebell (23 kg) - Made in the USA"
             price={99.5}
             rating={4}
-            noOfReviews={522}
+            noOfReviews={427}
             image="https://www.usa-iron.com/cdn/shop/products/8Y0A9321_reduced_1344x.jpg?v=1655075241"
           />
           <ShopCard
@@ -117,12 +117,12 @@ function Shop() {
             image="https://m.media-amazon.com/images/I/61gRqLFMiLL._AC_UF1000,1000_QL80_.jpg"
           />
           <ShopCard
-            id="6715398204"
-            title="TOPOKO Pull Up Bar for Doorway, No Screws Portable Chin Up Bar Doorway, Strength Training Door Frame"
-            price={24.99}
-            rating={3}
-            noOfReviews={129}
-            image="https://m.media-amazon.com/images/I/61gRqLFMiLL._AC_UF1000,1000_QL80_.jpg"
+            id="2541795148"
+            title="Sport-E 2.0 Elliptical Trainer Sri Lanka | Quantum Fitness"
+            price={1059.99}
+            rating={4}
+            noOfReviews={249}
+            image="https://www.quantum.lk/wp-content/uploads/2021/01/2-2-1-300x300.jpg"
           />
         </div>
       </div>

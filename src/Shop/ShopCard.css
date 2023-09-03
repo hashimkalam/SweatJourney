@@ -26,11 +26,16 @@
     color: #111;
 }
 
-.shopCard img{
+.shopCard > img{
     max-height: 200px;
-    width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+.shopCard > img:hover {
+    border-radius: 0px;
+    transform: scale(1.05);
 }
 
 .shopCard__price{

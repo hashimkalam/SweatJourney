@@ -35,8 +35,8 @@ function CreateAccount() {
       </Link>
       <div className="createAccount__container">
         <div className="createAccount__containerHeading">
-          <Link to="/login" className="login__backLink">
-            <ArrowBackIosIcon className="login__backIcon" />
+          <Link to="/login" className="createAccount__backLink">
+            <ArrowBackIosIcon className="createAccount__backIcon" />
           </Link>
           <h1>Register</h1>
         </div>
@@ -66,7 +66,8 @@ function CreateAccount() {
           </Button>
         </form>
         <p>
-          By signing-in you agree to SweatJourney's Conditions of Use & Sale.
+          By creating an account, you agree to SweatJourney's Conditions of Use
+          & Sale.
         </p>
       </div>
     </div>
